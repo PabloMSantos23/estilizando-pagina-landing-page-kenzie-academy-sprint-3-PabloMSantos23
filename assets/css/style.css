@@ -589,7 +589,74 @@ main{}
             align-items: center;
         }
 
-        
+        .flex{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .flex-pt img{
+            width: 275px;
+        }
+    
+        .flex-col button{
+            width: 18vw;
+            height: 5vh;
+            background-color: var(--cor-branca-letras);
+            border-color:  var(--cor-cinza-claro);
+            border-style: solid;
+            border-width: 1.5px;
+            border-radius: 7px;
+        }
+
+        .flex1{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            background-color: var(--cor-cinza-maisclaro);
+        }
+
+        .flex-col1 ul{
+            height: 20vw;
+        }
+
+        .flex-col1 h2{
+            height: 8vw;
+        }
+
+        .secaoCursos article{
+            height: 80vw;
+        }
+
+        .secaoCursos ul{
+            width: 100%;
+            height: 60vw;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .calendario{
+            flex-direction: row;            
+            width: 100vh;
+            height: 60vw;
+        }
+
+        .secaoContato{
+            height: 40vw;
+        }
+
+        .flex2{
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .flex-col3{
+            width: 50vmax;
+            
+        }
+
+             
 
 
 
