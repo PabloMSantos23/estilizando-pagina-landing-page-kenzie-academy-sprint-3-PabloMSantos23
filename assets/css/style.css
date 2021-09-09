@@ -160,6 +160,11 @@ div.container{
         border-style: none;
     }
 
+    .secaoDestaqueFormulario button:hover{
+        background-color: var(--cor-azul-escuro);
+        cursor: pointer;
+    }
+
     .secaoSobre{
         display: flex;
         flex-direction: column;
@@ -196,6 +201,11 @@ div.container{
         border-style: solid;
         border-width: 1.5px;
         border-radius: 7px;
+    }
+
+    .flex-col button:hover{
+        background-color: var(--cor-cinza-maisclaro);
+        cursor: wait;
     }
 
     .flex1{
@@ -350,6 +360,11 @@ div.container{
         border-radius: 7px;
     }
 
+    .calendario-data-rodape button:hover{
+        background-color: var(--cor-azul-escuro);
+        cursor: pointer;
+    }
+
     .calendario-data-rodape span{
         color: var(--cor-cinza-claro);
         font-size:36px ;
@@ -449,6 +464,12 @@ div.container{
         border-width: 1px;
         border-color: var(--cor-cinza-claro);
         border-radius: 5px
+    }
+
+    #buton:hover{
+        background-color: var(--cor-cinza-maisclaro);
+        cursor:none;
+
     }
 
     footer{
@@ -630,7 +651,7 @@ main{}
         }
 
         .secaoCursos ul{
-            width: 100%;
+            width: 850px;
             height: 60vw;
             flex-direction: row;
             flex-wrap: wrap;
@@ -646,19 +667,37 @@ main{}
             height: 40vw;
         }
 
+        .calendario-data-rodape button{
+            width: 12vh;
+            height: 5vw;
+        }
+
+        .form-input-model input{
+            width: 22vh;
+            height: 3vw;
+            display: flex;
+        }
+
         .flex2{
             flex-direction: row;
             justify-content: center;
         }
 
+        .sub{
+            width: 400px; ;
+            display: flex;
+            justify-content: flex-end;
+        }
+
         .flex-col3{
             width: 50vmax;
-            
+        }
+
+        .flex-col3 form{
+            width: 50vh;
+            justify-content: flex-end;
         }
 
              
-
-
-
     }
 /* MEDIA QUERIES */
